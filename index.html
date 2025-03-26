@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="card">
-      <div class="card__img">
-        <img src="./images/drawers.jpg" alt="Green Drawer" class="" />
-      </div>
-      <aside>
+    <article class="card">
+      <picture>
+        <img src="./images/drawers.jpg" alt="Drawers" class="card__img" />
+      </picture>
+      <section class="card__content">
         <article class="card__text">
           <div class="wrapper">
             <h1>
@@ -35,18 +35,18 @@
             </p>
           </div>
         </article>
-        <footer class="footer">
+        <section class="share">
           <div class="wrapper">
             <img
               src="./images/avatar-michelle.jpg"
               alt="Michelle"
               class="avatar"
             />
-            <section class="author">
+            <section class="card__profile">
               <p class="name">Michelle Appleton</p>
               <p class="date">20 Jun 2020</p>
             </section>
-            <section class="share">
+            <section class="share-links">
               <p>SHARE</p>
               <a
                 href="https://www.facebook.com/"
@@ -77,18 +77,14 @@
               <img src="./images/icon-share.svg" alt="Share button" />
             </button>
           </div>
-        </footer>
-      </aside>
-    </main>
+        </section>
+      </section>
+    </article>
     <script
       src="https://kit.fontawesome.com/6d1fa075ba.js"
       crossorigin="anonymous"
       type="module"
     ></script>
     <script src="script.js" type="module"></script>
-    <script
-      src="https://kit.fontawesome.com/6d1fa075ba.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

@@ -3,12 +3,12 @@
 
 // obtains DOM elements
 const shareBtn = document.getElementById("shareBtn");
-const footerSection = document.querySelector(".footer");
+const shareSection = document.querySelector(".share");
 
 // handles share button functionality
 function shareHandle() {
   console.log("share clicked");
-  footerSection.classList.toggle("active");
+  shareSection.classList.toggle("active");
 }
 
 // triggers shareBtn function when clicked
